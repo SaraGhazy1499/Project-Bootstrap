@@ -1,0 +1,142 @@
+@media   (min-width: 0px) and (max-width: 767px)
+{
+    
+  .info .content img
+  {
+    width: 430px;
+    margin: auto;
+    margin-top: 28.5%;
+   /* background-color: #d3e1e0;*/
+
+   }
+
+
+    /******************************/
+
+    .travel
+    {
+        padding: 15% 0% 80% 0%;
+    }
+    .travel .card
+    {
+        margin-left: 0;
+    }
+    .travel .img
+    {
+     width:300px;
+     height: 300px;
+     top: 45%;
+     left:28%;
+    }
+
+    .travel .circle
+    {
+        width: 140px;
+       height: 140px;
+        top:75%;
+        left:50%;
+    }
+
+    /*****************************/
+    .services 
+    {
+        padding: 5% 0;;
+    }
+    .service 
+    {
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .service-circle
+    {
+        width: 450px;
+        height: 450px;
+        left: 0%;
+    }
+    
+
+    /*****************************************/
+    .join-circle-1
+    {
+        width: 302px;
+        height: 302px;
+    }
+    .join-circle-2
+    {
+        width: 108px;
+        height: 108px;
+        top:28%;
+    }
+
+    .join-circle-3
+    {
+        width: 130px;
+        height: 130px;
+        border: 25px solid #f67b6f;
+        top:5%;
+        left:45%;
+    }
+
+    .join .join-content
+    {
+       margin-top: 0;
+       padding-top: 18%;
+    }
+    .join .card
+    {
+       margin-left: 5%;
+    }
+
+    /**************************************/
+    .travelwith
+    {
+        height: 190vh;
+    } 
+
+    .travelwith-content
+    {
+        padding-top: 65%;
+    }
+    .travelwith .card
+    {
+        margin-top: 100%;
+    }
+    .travelwith-circle-1
+    {
+        width: 340px;
+        height: 340px;
+    }
+    .travelwith-circle-2
+    {
+        width: 140px;
+        height: 140px;
+        top:23%;
+        left:19%;
+    }
+
+    .travelwith-circle-3
+    {
+        width: 150px;
+        height: 150px;
+        border: 25px solid #f67b6f;
+        left:48%;
+        top:40%;
+    }
+
+    .travelwith-circle-4
+    {
+        border: 20px solid #f67b6f;
+        width: 120px;
+        height: 120px;
+        top:35%;
+        left:10%;
+    }
+
+
+
+}
+
+
+
+

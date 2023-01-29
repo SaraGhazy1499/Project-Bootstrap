@@ -1,0 +1,623 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+
+.nav button
+{
+    font-size: 30px;
+}
+/********************Start info**********************/
+.info
+{
+    width: 100%;
+    height: 125vh;
+    background-image: url("../images/natureforesttreesfog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.content
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 7.5%;
+    overflow: hidden;
+}
+
+.info .content h3
+{
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+}
+
+.info .content h1
+{
+    font-size: 3.75rem;
+}
+
+.info .content button
+{
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    background-color: #f67b6f;
+    color: white;
+    padding: .8% 2.8%;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-weight: 500;
+}
+
+
+.info .content img
+{
+    width: 510px;
+    display: block;
+    margin: auto;
+    margin-top: 6%;
+    /*background-color: #d3e1e0;*/
+}
+/********************End info**********************/
+
+/********************Start news**********************/
+.news
+{
+    width: 100%;
+    background-color:#f67b6f;
+    padding: 3% 0 5% 0;
+}
+
+.news .card
+{
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    height: 20%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.news .card-img-top
+{
+    display: block;
+    height: 30vh;
+   
+}
+
+
+
+.news  h5
+{
+    font-weight: 700;
+    letter-spacing: 2px
+}
+.news p
+{
+    font-size: .879rem;
+    color: #b3b3b3;
+}
+
+.news button
+{
+    display: block;
+    margin: auto;
+    border: white 2px solid;
+    color: white;
+    padding: 1% 2.5%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-weight: 500;
+}
+
+.news button:hover
+{
+    background-color: white;
+    color: #f67b6f;
+}
+
+/********************End news**********************/
+
+
+/*******************Start Travel**********************/
+
+.travel
+{
+background-color: #d3e1e0;
+padding-top: 3%;
+padding-bottom: 30%;
+}
+
+.travel .card
+{
+    padding:4% 3% 7% 3%;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 18%);
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+    margin-top: 5%;
+}
+
+.travel .card h2
+{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.travel .card p
+{
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.travel .card a
+{
+    background-color: #f67b6f;
+    color: white;
+    padding: 2% 6%;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+     font-weight: 500;
+     
+}
+
+.travel .img
+{
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url("../images/photo-1470770841072-f978cf4d019e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top:17%;
+    left:15%;
+    
+}
+
+.travel .circle
+{
+    width: 160px;
+    height: 160px;
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+   background-color: #f67b6f;
+   left: 40%;
+   top:60%;
+}
+/*******************End Travel**********************/
+/********************Start services**********************/
+
+.services 
+{
+    width: 100%;
+    background-image: url('../images/ewr-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service 
+{
+    width: 67%;
+    margin-left: 32%;
+    padding: 6% 0%;
+}
+
+.service .card
+{
+    
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 18%);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-align: center;
+    color:#476160;
+    padding: 4% 6%;
+    margin: 1% 1.5%;
+}
+
+
+.service .card span
+{
+
+    display: block;
+    background-color: #d3e1e0;
+    margin: auto;
+}
+
+svg
+{
+  
+    fill: #476160;
+    width: 45%;
+   margin-top: 27%;
+}
+.service  .card h4
+{
+    padding-top: 10%;
+    letter-spacing: 1px;
+    color: #476160;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.rounded-circle
+{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.service-circle
+{
+    width: 630px;
+    height: 630px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #476160;
+    opacity: 0.45;
+    top:14%;
+    left: 13%;
+}
+/********************End services**********************/
+
+
+.travelwith
+{
+    background-color: #476160;
+
+    height: 150vh;
+}
+
+
+.travelwith .card
+{
+     box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+     padding: 13% 10%;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     background-color: #f2f2f2;
+     margin-top: 88%;
+}
+
+.travelwith-content h1
+{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.travelwith-content p
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+    padding-top: 3%;
+}
+
+.travelwith-content  button
+{
+    background-color: #f67b6f;
+    color: white;
+    width: 34%;
+    padding: 2.5% 1%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 17px;
+}
+
+.travelwith-circle
+{
+    position: absolute;
+}
+
+.travelwith-circle-1 
+{
+
+    width: 640px;
+    height: 640px;
+    border-radius: 50%;
+    background-image: url("../images/e51880ea-9f2c-4df5-b552-3f8459c8fd5e.jpg");
+    background-size: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    border: #f67b6f 20px solid;
+    top:5%;
+    left: 25%;
+
+}
+
+.travelwith-circle-2
+{
+    width: 260px;
+    height: 260px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    background-image: url("../images/natureforesttreesfog.jpg");
+    background-size: cover;
+    top:40%;
+    left:19%;
+
+}
+
+.travelwith-circle-3
+{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 45px solid #f67b6f;
+    left:28%;
+    top:70%;
+}
+
+.travelwith-circle-4
+{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 27px solid #f67b6f;
+    opacity: .7;
+    top:65%;
+    left:10%;
+
+}
+
+
+/********************Start about us******************/
+.aboutus
+{
+    background-color: #f67b6f;
+    color: white;
+    padding: 4% 0;
+}
+
+.aboutus h2
+{
+    font-size: 3rem;
+    line-height: 1.2;
+    padding-top: 2%;
+    
+}
+.aboutus h5
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.aboutus h4
+{
+    padding-top: 3%;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+.aboutus .u-p
+{
+    font-size: 1.125rem;
+    line-height: 2;
+
+}
+
+.aboutus h3
+{
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+
+/********************End about us**********************/
+
+
+/********************Start Join**********************/
+
+.join
+{
+    width: 100%;
+    height: 178vh;
+     background-color: #d3e1e0;
+}
+
+.join .card
+{
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    padding: 10% 5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 100%;
+}
+
+.join-circle
+{
+    position: absolute;
+}
+.join-circle-1
+{
+    width: 790px;
+    height: 790px;
+    border-radius: 50%;
+    background-image: url("../images/gggg-min.jpg");
+    background-size: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    border: #f67b6f 20px solid;
+    top:10%;
+    left: 15%;
+}
+
+.join-circle-2
+{
+    width: 260px;
+    height: 260px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    background-color: #f67b6f;
+    top:57%;
+    left:14%;
+}
+
+.join-circle-3
+{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 50px solid #f67b6f;
+    left:54%;
+    top:3%;
+}
+
+.join-circle-4
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 27px solid #f67b6f;
+    opacity: .5;
+    top:78%;
+    left:30%;
+
+}
+
+.join input ,.join textarea
+{
+    background-color: #d3e1e0;
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.join button
+{
+    background-color: #f67b6f;
+    color: white;
+    width: 100%;
+    padding: 3% 0;
+    margin-top: 2%;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    font-size: 20px;
+}
+
+.join button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+/********************End Join**********************/
+
+/********************First footer**********************/
+.footer
+{
+    width: 100%;
+    height: 25vh;
+   background-color: #333333;
+   text-align: center;
+}
+.footer p
+{
+    color: white;
+}
+
+/********************End footer**********************/
+
+
+
+
+@media   (max-width: 1250px)
+{
+   .travel .img
+   {
+    width: 480px;
+    height: 480px;
+       top:15%;
+       left: 8%;
+   }
+
+   .travel .circle
+   {
+       width: 140px;
+       height: 140px;
+       top:60%;
+       left:40%;
+   }
+}
